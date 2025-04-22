@@ -1,0 +1,21 @@
+:root {
+    --tom: 205;
+    --primary-color: hsl(var(--tom), 92%, 48%, 100%);
+    --primary-dark-color: hsl(var(--tom), 95%, 37%);
+    --light-color: hsl(var(--tom), 80%, 90%);
+    --back-color: hsl(var(--tom), 100%, 100%, 100%);
+    --shadow-1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --text-color-1: #000;
+    --text-color-2: #fff;
+    --text-color-3: #444;
+    --title-color: #fff;
+    --danger-color: hsl(0, 84%, 51%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
